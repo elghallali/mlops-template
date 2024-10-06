@@ -13,7 +13,10 @@ _A logical, reasonably standardized, but flexible project structure for MLOps._
 mlops_template/
 ├── LICENSE     
 ├── README.md                  
-├── Makefile                     # Makefile with commands like `make data` or `make train`                   
+├── Makefile                     # Makefile with commands like `make data` or `make train`
+├── Dockerfile
+├── docker-compose.yaml
+├── .gitignore               
 ├── configs                      # Config files (models and training hyperparameters)
 │   └── model1.yaml              
 │
